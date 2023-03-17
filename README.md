@@ -43,11 +43,17 @@ function encodeParamsForOneStep(
     ) external pure returns (bytes memory encodedParams);
 ```
 `token0` corresponds to the token swap should start with
+
 `token1` corresponds to the token swap should end with
-`routers` corresponds to the list of router addresses 
+
+`routers` corresponds to the list of router addresses
+
 `pools` corresponds to the list of pools in the same order as router addresses
+
 `inputAmount0` corresponds to `token0` amount when simulating `token0` to `token1` swap
+
 `inputAmount1` corresponds to `token1` amount when simulating `token1` to `token0` swap
+
 ### getAmountsOutForTwoStep (0xc43da5cd)
 
 ```js
@@ -64,13 +70,21 @@ function encodeParamsForTwoStep(
     ) external pure returns (bytes memory encodedParams);
 ```
 `token0` corresponds to the token swap should start with
+
 `token1` corresponds to the intermediary token swap should go through 
+
 `token2` corresponds to the token swap should end with
+
 `routers0` corresponds to the list of router addresses for `token0` to `token1` swaps
+
 `pools0` corresponds to the list of pools for `token0` to `token1` swaps in the same order as router addresses
+
 `routers1` corresponds to the list of router addresses for `token1` to `token2` swaps
+
 `pools1` corresponds to the list of pools for `token1` to `token2` swaps in the same order as router addresses
+
 `inputAmount0` corresponds to `token0` amount when simulating `token0` to `token1` swap
+
 `inputAmount1` corresponds to `token1` amount when simulating `token1` to `token0` swap
 
 ### getAmountsOutForOneStep (0xe5c46f3a)
@@ -91,12 +105,19 @@ function getAmountsOutForOneStep(bytes memory encodedParams)
         );
 ```
 `amountOut0` is for the best router/pool swap result for `token0` to `token1`
+
 `bestRouter0` is for the best swap router for `token0` to `token1`
+
 `bestPool0` is for the best swap pool for `token0` to `token1`
+
 `amountOutList0` is for the list of amountOut quotes for the pools `token0` to `token1` in the same order as submitted `pools` 
+
 `amountOut1` is for the best router/pool swap result for `token1` to `token0`
+
 `bestRouter1` is for the best swap router for `token1` to `token0`
+
 `bestPool1` is for the best swap pool for `token1` to `token0`
+
 `amountOutList1` is for the list of amountOut quotes for the pools `token1` to `token0` in the same order as submitted `pools` 
 
 ### getAmountsOutForTwoStep (0x6d77babe)
@@ -115,10 +136,15 @@ function getAmountsOutForTwoStep(bytes memory encodedParams)
         );
 ```
 `amountOut0` is for the best router/pool swap result for `token0` to `token2`
+
 `bestRoutersList0` is for the best swap routers for `token0` to `token1` and `token1` to `token2`
+
 `bestPoolsList0` is for the best swap pools for `token0` to `token1` and `token1` to `token2`
+
 `amountOut1` is for the best router/pool swap result for `token2` to `token1`
+
 `bestRoutersList1` is for the best swap routers for `token2` to `token1` and `token1` to `token0`
+
 `bestPoolsList1` is for the best swap pools for `token2` to `token1` and `token1` to `token0`
 
 
