@@ -54,7 +54,7 @@ function encodeParamsForOneStep(
 
 `inputAmount1` corresponds to `token1` amount when simulating `token1` to `token0` swap
 
-### getAmountsOutForTwoStep (0xc43da5cd)
+### encodeParamsForTwoStep (0xc43da5cd)
 
 ```js
 function encodeParamsForTwoStep(
