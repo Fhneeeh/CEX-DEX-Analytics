@@ -85,7 +85,7 @@ function encodeParamsForTwoStep(
 
 `inputAmount0` corresponds to `token0` amount when simulating `token0` to `token1` swap
 
-`inputAmount1` corresponds to `token1` amount when simulating `token1` to `token0` swap
+`inputAmount1` corresponds to `token2` amount when simulating `token1` to `token0` swap
 
 ### getAmountsOutForOneStep (0xe5c46f3a)
 
