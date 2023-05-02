@@ -6,10 +6,17 @@ Implementation of the CEX-DEX smart analytics contract for collecting onchain da
 
 ### Supported DEXes
 
-- Uniswap V3/V2
-- Kyberswap V3
-- Quickswap V3/V2
-- DODO
+- Polygon
+- Optimism
+- Arbitrum
+
+### Supported DEXes
+
+- Uniswap V3/V2 (Polygon/Optimism/Arbitrum)
+- Kyberswap V3 (Polygon/Optimism/Arbitrum)
+- Quickswap V3/V2 (Polygon)
+- DODO (Polygon)
+- Velodrome (Optimism)
 - Other Uniswap V2 forks
 
 ### New Features
@@ -18,7 +25,6 @@ Implementation of the CEX-DEX smart analytics contract for collecting onchain da
 - Single/Double Step Swap Simulation Function
 - Both Trade Sides per Same Request
 - List of Quotes for Single Step Swap Simulation
-
 
 
 ### Tech
