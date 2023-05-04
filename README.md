@@ -9,13 +9,15 @@ Implementation of the CEX-DEX smart analytics contract for collecting onchain da
 - Polygon
 - Optimism
 - Arbitrum
+- BSC
 
 ### Supported DEXes
 
 - Uniswap V3/V2 (Polygon/Optimism/Arbitrum)
 - Kyberswap V3 (Polygon/Optimism/Arbitrum)
 - Quickswap V3/V2 (Polygon)
-- DODO (Polygon)
+- Thena (BSC)
+- DODO (Polygon/BSC)
 - Velodrome (Optimism)
 - Other Uniswap V2 forks
 
