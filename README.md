@@ -10,6 +10,7 @@ Implementation of the CEX-DEX smart analytics contract for collecting onchain da
 - Optimism
 - Arbitrum
 - BSC
+- Fantom
 
 ### Supported DEXes
 
@@ -19,6 +20,7 @@ Implementation of the CEX-DEX smart analytics contract for collecting onchain da
 - Thena (BSC)
 - DODO (Polygon/BSC)
 - Velodrome (Optimism)
+- Equalizer (Fantom)
 - Other Uniswap V2 forks
 
 ### New Features
