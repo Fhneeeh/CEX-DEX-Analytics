@@ -11,14 +11,15 @@ Implementation of the CEX-DEX smart analytics contract for collecting onchain da
 - Arbitrum
 - BSC
 - Fantom
+- Avalanche
 
 ### Supported DEXes
 
 - Uniswap V3/V2 (Polygon/Optimism/Arbitrum)
-- Kyberswap V3 (Polygon/Optimism/Arbitrum)
+- Kyberswap V3 (Polygon/Optimism/Arbitrum/Avalanche)
 - Quickswap V3/V2 (Polygon)
 - Thena (BSC)
-- DODO (Polygon/BSC)
+- DODO (Polygon/BSC/Avalanche)
 - Velodrome (Optimism)
 - Equalizer (Fantom)
 - Other Uniswap V2 forks
